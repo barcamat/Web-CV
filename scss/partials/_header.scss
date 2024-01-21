@@ -1,0 +1,138 @@
+@use 'variables' as *;
+
+//                  === HEADER PART - UP ===
+
+.header__up-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header__up-line--name{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.menu__hamburger--img {
+    width: 60px;
+
+    @media screen and (min-width:968px){
+        display: none;
+    }
+}
+
+.header__menu {
+    display: none;
+
+    @media screen and (min-width:968px){
+        display: flex;
+    }
+}
+
+.menu__item{
+    text-decoration: none;
+    padding: 10px 20px;
+    color:$blue-dark;
+
+    &:hover,
+    &:active {
+        text-decoration: underline;
+        color: #81aac6;
+    }
+}
+
+//                  === HEADER PART - UP ===
+
+.header__introduction {
+    background-image: url(../images/cover_photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header_introduction--flex {
+    display: flex;
+    flex-direction: column;
+    
+    @media screen and (min-width:968px){
+        flex-direction: row;
+        width:968px;
+        margin: 0px auto;
+        padding-top: 130px;
+    }
+}
+.header__introduction--img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    padding: 50px 20px 0 20px;
+
+    @media screen and (min-width:400px){
+        padding:50px 40px 0 40px;
+       
+    }
+
+    @media screen and (min-width:968px){
+        padding: 0;
+        flex: 0 0 50%;
+        width:473px;
+    }
+}
+.header__introductio--information {
+    background-color: #F1F1F1;
+    margin: 0 20px 0px 20px;
+    padding: 40px 50px;
+
+    @media screen and (min-width:400px){
+        margin:0 40px 0px 40px;
+    }
+
+    @media screen and (min-width:968px){
+        margin: 0;
+        flex: 0 0 50%;
+        padding-top: 100px;
+    }
+}
+
+
+.header__introduction__title {
+    font-size: 35px;
+    margin: 10px 0 5px 0;
+}
+
+.header__introduction__subtitle {
+    font-size: 25px;
+    margin: 0 0 40px 0;
+}
+.header__introduction__item {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.header__introduction__item--content {
+    font-size: 20px;
+    margin: 0;
+}
+
+.header__introduction--networks {
+    background-color: $blue-dark;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 40px 0;
+    padding: 20px 0;
+
+    @media screen and (min-width:400px){
+        margin:0 40px 40px 40px;
+    }
+
+    @media screen and (min-width:968px){
+        width: 968px;
+        margin:0 auto;
+    }
+}
+
+.header__introduction__network-logo {
+    width: 40px;
+    margin: 0 20px;
+}

@@ -1,0 +1,16 @@
+@use 'variables' as *;
+
+
+.courses__certificate--img {
+    margin-left: 20px;
+}
+
+.courses__content {
+    padding: 20px 0;
+}
+
+.courses__content:nth-child(3),
+.courses__content:nth-child(4){
+    border-top: 2px solid $grey;
+    border-bottom: 2px solid $grey;
+}

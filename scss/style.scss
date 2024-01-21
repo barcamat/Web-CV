@@ -1,0 +1,28 @@
+/*PROMĚNNÉ*/
+@use '../scss/partials/variables' as *;
+@use '../scss/partials/skills';
+@use '../scss/partials/footer';
+@use '../scss/partials/about-me';
+@use '../scss/partials/sections';
+@use '../scss/partials/contact';
+@use '../scss/partials/header';
+@use '../scss/partials/courses';
+
+
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+
+
+body {
+	margin: 0;
+	font-family: $font-main;
+    color:$blue-dark;
+    font-size: 20px;
+}
+ .container {
+    @media screen and (min-width:968px){
+    width: 968px;
+    margin: 0 auto;
+    }
+ }

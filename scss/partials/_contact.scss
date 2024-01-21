@@ -1,0 +1,101 @@
+@use 'variables' as *;
+
+.section__contact {
+    background-color: $grey;
+    margin: 0 0 0 40px;
+}
+
+.section__contact--grey-box {
+    background-color: $grey;
+}
+
+.contact_info {
+    padding: 40px 0;
+
+    @media screen and (min-width:968px){
+        padding-left: 40px;
+    }
+}
+
+.contact__flex {
+    @media screen and (min-width:968px){
+    display: flex;
+    padding-bottom: 30px;
+    border-top: 1px solid white;
+    }
+}
+
+.contact__fields-names--flex {
+    display: flex;
+}
+
+.contact__networks {
+    display: none;
+
+    @media screen and (min-width:968px){
+    margin-top: 120px;
+    padding-top: 50px;
+    border-top: 1px solid $blue-dark;
+    }
+}
+
+
+.form {
+    display: grid;
+
+    @media screen and (min-width:968px){
+    flex: 0 0 50%;
+    padding: 40px 30px 0 0;
+    border-right: 1px solid white;
+    }
+}
+
+.form--label {
+    font-size: 25px;
+    display: block;
+    margin-bottom: 5px;
+
+    @media screen and (min-width:968px){
+        font-size: 20px;
+    }
+}
+.form__fields{
+    margin: 10px 0;
+}
+.form--field {
+    height: 40px;
+    font-size: 25px;
+    width:100%;
+    padding-left: 10px;
+    border: 1px solid $blue-dark;
+
+    @media screen and (min-width:968px){
+        height: 35px;
+    }
+}
+
+.form--textarea{
+    width: 100%;
+    font-size: 25px;
+    padding:20px;
+    border: 1px solid $blue-dark;
+}
+
+.form--button{
+    background-color: $blue-dark;
+    color:white;
+    
+    &:hover{
+        background-color: white;
+        color:$blue-dark;
+        font-weight: bold;
+    }
+
+    @media screen and (min-width:968px){
+        font-size: 20px;
+    }
+}
+
+.form__fields--last-name {
+    padding-left: 10px;
+}

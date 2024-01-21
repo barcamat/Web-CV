@@ -1,0 +1,48 @@
+@use 'variables' as *;
+
+.section__box {
+    margin: 40px 40px 0 40px;
+
+    &::before {
+        content: "";
+        display: block;
+        background-color: $blue-dark;
+        height: 8px;
+        width: 40%;
+        margin: 50px 0;
+    }
+
+    @media screen and (min-width:968px){
+        margin:0;
+    }
+}
+
+.section__subtitle {
+    display: flex;
+    align-items: center;
+    margin:0;
+    font-weight: bold;
+
+    &::before{
+        content: "\2022";
+        margin-right: 8px; 
+        font-size: 30px;
+        color:$blue-dark; 
+    }
+}
+
+.section__content {
+    margin:10px 20px;
+}
+
+.section__company {
+    margin: 10px 20px;
+}
+
+.section__border-box{
+    padding: 20px 0;
+    margin: 20px 0;
+    border-bottom: 2px solid $grey;
+    border-top: 2px solid $grey;;
+}
+
