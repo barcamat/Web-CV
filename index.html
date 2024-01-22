@@ -13,8 +13,8 @@
 	<meta property="og:description" content="web o mně">
 	<meta property="og:type" content="Životopis">
     <!--upravit cestu k fotce-->
-	<meta property="og:image" content="https://kadernictvi-renata.netlify.app/images/header/header_img_opengraph.jpg">
-	<meta property="og:url" content="https://kadernictvi-renata.netlify.app/">
+	<meta property="og:image" content="https://barcamat.github.io/Web-CV/?fbclid=IwAR03i8E6E34_YUNf6HcWeSf7NayzszzoBPaxO8bW_sugyC22UbqrKufCI2E/images/cover_photo.jpg">
+	<meta property="og:url" content="https://barcamat.github.io/Web-CV/?fbclid=IwAR2seBjjR_axFCIP2AJV2FjVMGhc3h37MQ0q5pVlQhmM_hRahu2VIWziLX0/">
 	<meta property="og:locale" content="cs_CZ">
 
     <!--FAVICON -->
@@ -34,14 +34,11 @@
 </head>
 
 <body>
-
     <header>
         <section class="header__up-line">
-            <div class="header__up-line__left-side">
-                <h3 class="header__up-line--name">Barbora Maťátková</h3>
-            </div>
-
-            <img class="menu__hamburger--img" src="images/hamburger.png">
+            <h3 class="header__up-line--name">Barbora Maťátková</h3>
+        
+            <img class="header__up-line__hamburger--img" src="images/hamburger.png">
 
             <nav class="header__menu">
                 <a class="menu__item" href="#about-me">O mně</a>
@@ -57,10 +54,10 @@
 <!--ÚVODNÍ KARTIČKA--> 
         <section class="header__introduction">
 
-            <div class="header_introduction--flex">
+            <div class="header__introduction--flex">
                 <img class="header__introduction--img" src="images/personal_image.JPG">
 
-                <div class="header__introductio--information">
+                <div class="header__introduction--information">
                     <p class="header__introduction__title">Barbora Maťátková</p>
                     <p class="header__introduction__subtitle">frontend developer</p>
                     
@@ -93,16 +90,18 @@
     
         <section class="about-me"  id="about-me">
             <div class="container">
-                <h2 class="about-me__headline">Ahoj, jmenuji se Bára</h2>
+                <h2 class="about-me__content">Ahoj, jmenuji se Bára</h2>
+
                 <p class="about-me__content"> Během doby strávené na rodičovské dovolené jsem se rozhodla změnit svoji kariéru a začala jsem se vzdělávat v oblasti vývoje webu. Baví mě to a proto jsem vytvořila několik projektů webu, které mám k dispozici na GitHubu. Mám již znalosti z oblasti kódování HTML a CSS a programování v Javascriptu. Weby dělám plně responzivní s použitím Sass, když je potřeba využívám generátor statických webů Eleventy.</p>
                 <p class="about-me__content">Tyto znalosti jsem se  učila z Youtube kanálu Davida Šetka a také z kurzů od agentury Czechitas. Učení mě baví a neustále se vzdělávám dál a rozšiřuji své znalosti v oblasti CSS a Javascriptu. Časem bych ráda pronikla i do backendové oblasti vývoje webu. </p>
             </div>
         </section>
     
 <!--SEKCE ZAMĚSTNÁNÍ-->
+
     <div class="container">
         <section class="section__box" id="jobs">
-            <h1 class="section__headline" >Pracovní Zkušenosti</h1>
+            <h1 >Pracovní Zkušenosti</h1>
 
             <p class="section__subtitle">2019-současnost</p>
             <p class="section__content">Rodičovská dovolená</p>
@@ -122,7 +121,7 @@
 
 <!--SEKCE VZDĚLÁNÍ-->
         <section class="section__box" id="schools">
-            <h1 class="section__headline">Vzdělání</h1>
+            <h1>Vzdělání</h1>
 
             <p class="section__subtitle">2012-2014</p>
             <p class="section__company">Masarykova Univerzita</p>
@@ -139,7 +138,7 @@
 
 <!--SEKCE KURZY-->
         <section class="section__box" id="courses">
-            <h1 class="section__headline">Kurzy</h1>
+            <h1>Kurzy</h1>
 
             <div class="courses__content">
                 <p class="section__subtitle">duben 2023</p>
@@ -165,7 +164,7 @@
 
 <!--SEKCE DOVEDNOSTI-->
         <section class="section__box" id="skills">
-            <h1 class="section__headline">Dovednosti</h1>
+            <h1>Dovednosti</h1>
 
             <p class="section__subtitle">Jazyky</p>
             <p class="section__content">Angličtina - B2</p>
@@ -220,7 +219,7 @@
 
 <!--SEKCE PROJEKTY-->
         <section class="section__box" id="projectse">
-            <h1 class="section__headline">Projekty</h1>
+            <h1>Projekty</h1>
 
             <p>Kadeřnictví Renata</p>
             <p>Postavené na generátoru statických webů Eleventy.</p>
@@ -233,24 +232,24 @@
 <!--SEKCE KONTAKT-->
         <div class="section__contact--grey-box" id="contact">
             <section class="section__box container">
-                <h1 class="section__headline">Napište mi</h1>
+                <h1>Napište mi</h1>
 
                 <div class="contact__flex">
                     <form class="form">
                         <div class="contact__fields-names--flex">
                             <div class="form__fields">
                                 <label class="form--label" for="first-name">Jméno</label>
-                                <input class="form--field" type="text" name="first-name" id="first-name" autofocus>
+                                <input class="form--field" type="text" name="first-name" id="first-name">
                             </div>
 
                             <div class="form__fields form__fields--last-name">
                                 <label class="form--label" for="last-name">Příjmení</label>
-                                <input class="form--field" type="text" name="last-name" id="last-name" autofocus>
+                                <input class="form--field" type="text" name="last-name" id="last-name">
                             </div>
                         </div>
                         <div class="form__fields">
                             <label class="form--label" for="email">Email</label>
-                            <input class="form--field" type="email" name="email" id="email" autofocus>
+                            <input class="form--field" type="email" name="email" id="email">
                         </div>
 
                         <div class="form__fields">

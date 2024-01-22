@@ -12,13 +12,13 @@
 .contact_info {
     padding: 40px 0;
 
-    @media screen and (min-width:968px){
+    @media screen and (min-width:960px){
         padding-left: 40px;
     }
 }
 
 .contact__flex {
-    @media screen and (min-width:968px){
+    @media screen and (min-width:960px){
     display: flex;
     padding-bottom: 30px;
     border-top: 1px solid white;
@@ -32,7 +32,8 @@
 .contact__networks {
     display: none;
 
-    @media screen and (min-width:968px){
+    @media screen and (min-width:960px){
+    display: block;
     margin-top: 120px;
     padding-top: 50px;
     border-top: 1px solid $blue-dark;
@@ -43,7 +44,7 @@
 .form {
     display: grid;
 
-    @media screen and (min-width:968px){
+    @media screen and (min-width:960px){
     flex: 0 0 50%;
     padding: 40px 30px 0 0;
     border-right: 1px solid white;
@@ -55,7 +56,7 @@
     display: block;
     margin-bottom: 5px;
 
-    @media screen and (min-width:968px){
+    @media screen and (min-width:960px){
         font-size: 20px;
     }
 }
@@ -69,7 +70,7 @@
     padding-left: 10px;
     border: 1px solid $blue-dark;
 
-    @media screen and (min-width:968px){
+    @media screen and (min-width:960px){
         height: 35px;
     }
 }
@@ -91,11 +92,12 @@
         font-weight: bold;
     }
 
-    @media screen and (min-width:968px){
+    @media screen and (min-width:960px){
         font-size: 20px;
     }
 }
 
 .form__fields--last-name {
     padding-left: 10px;
+    flex: 0 0 50%;
 }

@@ -4,3 +4,11 @@
    background-color: $grey;
    padding: 40px;
 }
+
+.about-me__content {
+   text-align: center;
+
+   @media screen and (min-width:968px){
+      text-align: left;
+   }
+}
